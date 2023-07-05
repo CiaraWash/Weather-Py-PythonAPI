@@ -82,4 +82,4 @@ Feel free to adjust your specifications but make sure to set a reasonable limit 
 
 5. Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
 
-![alt text]https://static.bc-edx.com/data/dl-1-2/m6/lms/img/hotel_map.png
+![alt text](https://static.bc-edx.com/data/dl-1-2/m6/lms/img/hotel_map.png)
