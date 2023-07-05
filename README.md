@@ -55,29 +55,31 @@ In this deliverable, you'll use your weather data skills to plan future vacation
 
 The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
 
+
+
 Your main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.
 
 To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
 
-Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
+1. Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
 
-<b> Humidity map </b>
+![alt text](https://static.bc-edx.com/data/dl-1-2/m6/lms/img/humidity_map.png)
 
-Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
+2. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
 
-A max temperature lower than 27 degrees but higher than 21
+- A max temperature lower than 27 degrees but higher than 21
 
-Wind speed less than 4.5 m/s
+- Wind speed less than 4.5 m/s
 
-Zero cloudiness
+- Zero cloudiness
 
 NOTE
 Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
 
-Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
+3. Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
 
-For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
+4. For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
 
-Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
+5. Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
 
-Hotel map
+![alt text]https://static.bc-edx.com/data/dl-1-2/m6/lms/img/hotel_map.png
